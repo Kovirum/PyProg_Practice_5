@@ -18,9 +18,10 @@ if __name__ == '__main__':
         'm': 13
     }
 
+    dict_items = dictionary.items()
     dictionary2 = {}
 
-    for key, value in dictionary.items():
+    for key, value in dict_items:
         dictionary2[value] = key
 
     print(f"Исходный словарь: {dictionary}")
