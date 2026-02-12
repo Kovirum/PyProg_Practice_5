@@ -14,4 +14,4 @@ if __name__ == '__main__':
     Y = (A.intersection(u.difference(B)).union(C.difference(B)))
 
     print(f"{X=}")
-    print("{Y=}")
+    print(f"{Y=}")
